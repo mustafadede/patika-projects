@@ -1,0 +1,1 @@
+export let topla = (a,b) => a + b;

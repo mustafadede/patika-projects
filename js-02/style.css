@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #3cf3dd, #ff0055);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+/* TOP PART */
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  height: 250px;
+  background-color: rgba(15, 15, 15, 0.5);
+}
+
+h1,
+h2 {
+  color: white;
+  user-select: none;
+}
+
+.inputbar {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 5px;
+}
+
+button {
+  cursor: pointer;
+  width: 65px;
+  height: 35px;
+  border: none;
+  margin-left: 5px;
+  background: rgb(143, 143, 143);
+}
+
+button:hover {
+  background: rgb(98, 98, 98);
+}
+
+/* TO-DO ADDING AND LISTING PART */
+
+.to-do {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.to-do:nth-child(even) {
+  width: 85%;
+  height: 40px;
+  background-color: rgba(163, 163, 163,0.4);
+}
+
+.to-do:nth-child(odd) {
+  width: 85%;
+  height: 40px;
+  background-color: rgba(128, 128, 128,0.4);
+}
+
+.value {
+  padding-left: 40px;
+}
+
+.close:hover {
+  background-color: rgba(83, 83, 83,0.3);
+}
+
+.checked {
+  color: rgb(128, 128, 128);
+  background-color: rgb(255, 236, 221) !important;
+}
+
+.checked > .value {
+  text-decoration: line-through;
+}

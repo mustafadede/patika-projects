@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big-title {
+    color: #334257;
+}
+.alt-baslik {
+    color: #548CA8;
+}
+
+.list-baslik {
+    color: #548CA8;
+    font-size: 18px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+a {
+    
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    
+    color: #548CA8;
+}
+/* info.html */
+
+.info-display {
+    flex-direction: row;
+    padding-left: 35px;
+}
+
+.info-title {
+    color: #548CA8;
+    font-size: 18px;
+}

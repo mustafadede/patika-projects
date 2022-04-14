@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  font-family: arial,sans-serif;
+}
+
+body {
+    background-image: url('https://images8.alphacoders.com/998/thumb-1920-998795.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.top {
+    width: 100%;
+    height: 72px;
+}
+
+/*top links */
+
+.links-top {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left:10px;
+    margin-top: 30px;
+}
+
+.left a {
+    padding-left: 15px;
+}
+
+.right {
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+.right a {
+    padding-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.menu {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.menu-icon {
+    fill: rgb(226, 226, 226);
+}
+
+
+.sign {
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    padding: 2px;
+    padding-left: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: default;
+    outline: none;
+    border-radius: 2px;
+}
+
+.sign a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+/* Image, Search Bar and Buttons */
+
+.main {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 272px;
+    padding-bottom: 15px;
+}
+
+
+.main-search {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 569px;
+    height: 39px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.main-search:hover {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    fill: #9AA0A6;
+    margin-left: 14px;
+}
+
+.mic {
+    background: url('//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    margin-right: 18px;
+}
+.buttons {
+    margin-top: 23px;
+    display: flex;
+
+}
+
+.google-search {
+    border-radius: 4px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 4px 5px;
+}
+
+.google-search:hover {
+    border: 1px solid #a0a0a0;
+    color: black;
+    cursor: pointer;
+}
+
+.lucky {
+    border-radius: 4px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 4px 5px;
+}
+
+.lucky:hover {
+    border: 1px solid #a0a0a0;
+    color: black;
+    cursor: pointer;
+}
+
+div .textfield {
+    font: 16px arial,sans-serif;
+    background: transparent;
+    width: 487px;
+    height: 35px;
+    word-wrap: break-word;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: text;
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(179, 179, 179, 0.5);
+    width: 100%;
+    height: 40px;
+}
+
+
+.footer .links {
+    display: flex;
+    justify-content: space-between;
+}
+.ext {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    font-size: 14px;
+}
