@@ -6,4 +6,8 @@ This repo dedicated for PATIKA.DEV-React.js Course homeworks.
 * js-02 => To-Do App (not localStorage)
 * js-03 => Asian Kitchen's Menu
 * node-project => "Fundamental Homework" for react basics
+<<<<<<< HEAD
 * data-structures => "Data structures Homeworks"
+=======
+* bootstrap => this dir have all bootstrap homeworks 
+>>>>>>> refs/remotes/origin/main
