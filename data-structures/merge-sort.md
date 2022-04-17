@@ -22,3 +22,7 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 - Tekrar birleştirilir ve son karşılaştırma ile dizi düzenlenir.
 
 [8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+
+- O(n*Log n)
